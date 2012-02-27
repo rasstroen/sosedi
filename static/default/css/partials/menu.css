@@ -1,0 +1,39 @@
+.p-menu-rating{
+	list-style: none;
+}
+
+.p-menu-rating li{
+	float : left;
+	margin : 10px 10px 10px 10px;
+}
+
+.p-menu-rating li a{
+	background: url("/static/default/img/usel_btn.jpg") no-repeat scroll left top transparent;
+	border: 0 none;
+	color: #878786 !important;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 37px;
+	margin-right: 2px;
+	padding-top: 8px;
+	text-align: center;
+	text-decoration: none;
+	width: 121px;
+}
+
+.p-menu-rating li.selected a{
+	background: url("/static/default/img/sel_btn.jpg") no-repeat scroll left top transparent;
+	border: 0 none;
+	color: #FFFFFF !important;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 34px;
+	margin-right: 2px;
+	margin-top: 1px;
+	padding-top: 7px;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+}

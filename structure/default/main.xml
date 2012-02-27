@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<layout file="layouts/page.xsl"/>
+		<stylesheet path="partials/posts"/>
+		<title>Ljrate.ru</title>
+	</data>
+	<blocks>
+		<content>
+			<module name="menu" action="list" mode="rating" />
+			<module name="posts" action="list" mode="main" />
+		</content>
+		<sidebar>
+			<module name="snippet" action="show" mode="posts_updates_last">
+				
+			</module>
+		</sidebar>
+	</blocks>
+</structure>

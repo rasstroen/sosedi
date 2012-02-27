@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<stylesheet path="layout"/>
+		<stylesheet path="partials/menu"/>
+		<javascript path="jquery.min"/>
+		<javascript path="jquery-ui"/>
+		<javascript path="jquery.timeago"/>
+		<javascript path="app"/>
+	</data>
+	<blocks>
+	</blocks>
+	
+</structure>

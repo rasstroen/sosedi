@@ -1,0 +1,86 @@
+.post-list {
+	position: relative;
+	clear:left;
+	padding-bottom:20px;
+}
+
+.post-list .break{
+	display: block;
+	clear: left;
+}
+
+.post-list.odd{
+	background: #ebebeb;
+}
+
+.post-list{
+	margin:20px;
+}
+
+
+.post-list .title .author{
+	float:left;
+	text-align: right;
+	margin:5px 5px 5px 5px;
+}
+.post-list .title .title{
+	float:left;
+	overflow: hidden;
+	display: block;
+	margin:5px 5px 0px 10px;
+}
+
+.post-list .title .author a{
+	font-family: arial;
+	font-size: 14px;
+}
+
+.post-list .title .title a{
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.post-list .text{
+	clear:left;
+}
+.post-list .text {
+	margin : 0px 10px 10px 5px;
+}
+
+.post-list .text .pic{
+	float:left;
+	margin : 0px 10px 10px 5px;
+}
+
+.post-list .counters{
+	float:right;
+}
+
+.post-show .title{
+
+}
+
+.post-show .title .title{
+	float:left;
+	overflow: hidden;
+	display: block;
+	margin:5px 5px 0px 10px;
+}
+
+.post-show .title .title a{
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.post-show .title .author a{
+	font-family: arial;
+	font-size: 14px;
+}
+
+.post-show .title .author{
+	float:left;
+	text-align: right;
+	margin:5px 5px 5px 5px;
+}
