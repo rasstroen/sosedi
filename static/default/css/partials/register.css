@@ -1,0 +1,46 @@
+.m-register-show form{
+	width : 320px;
+	margin: 0 auto;
+}
+
+.form-title, .form-input,.form-submit{
+	margin-left : 20px;
+}
+
+.form-title{
+	font-size: 14px;
+	font-family: arial;
+	text-transform: capitalize;
+	font-weight: bolder;
+	padding-top : 10px;
+}
+
+.form-title .error{
+	float:right;
+	text-transform: uppercase !important;
+	font-size:10px !important;
+	font-style: italic;
+	color: red;
+}
+
+.form-input input{
+	width: 300px;
+	height:24px;
+	font-size: 14px;
+	line-height: 20px;
+	border: 1px solid #aaa;
+	background: white;
+}
+
+.form-submit{
+	padding-top:10px;
+}
+
+.form-submit input{
+	width: 300px;
+	height:24px;
+	font-size: 14px;
+	line-height: 20px;
+	border: 1px solid #aaa;
+	background: white;
+}

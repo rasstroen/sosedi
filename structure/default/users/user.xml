@@ -2,18 +2,18 @@
 <structure>
 	<data>
 		<layout file="layouts/page.xsl"/>
-		<stylesheet path="partials/posts"/>
-		<title>post</title>
+		<stylesheet path="partials/user"/>
+		<title>Профиль пользователя {profile-nickname:get:1}</title>
 	</data>
 	<blocks>
 		<content>
-			<module name="posts" action="show" >
+			<module name="users" action="show" >
 				<param name="user_id" type="get" value="1" />
-				<param name="post_id" type="get" value="2" />
 			</module>
-
+			
 		</content>
 		<sidebar>
+			
 		</sidebar>
 	</blocks>
 </structure>

@@ -1,0 +1,18 @@
+.profile{
+	padding-left: 30px;
+}
+
+.profile .username{
+	font-size: 18px;
+}
+
+.profile .address{
+
+}
+
+.profile .address .addresspart{
+	float : left;
+	margin: 5px;
+	padding: 5px;
+	background: #bababa;
+}
